@@ -13,7 +13,7 @@ import pe.kth.boilerplate.mvp.view.MainView;
 
 public class MainPresenter implements Presenter<MainView>{
     MainView mainView;
-    // 컨텍스트는 정말 필요할때만 사용하기...
+    // 컨텍스트는 정말 필요할때만 사용하기!!
     private Context ctx;
 
     @Override
